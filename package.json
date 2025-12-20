@@ -1,11 +1,16 @@
 {
   "name": "spotify-oauth",
   "version": "1.0.0",
+  "description": "Servidor OAuth para Spotify integrado com WhatsApp Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
