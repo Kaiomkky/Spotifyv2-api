@@ -3,8 +3,8 @@ const crypto = require('crypto');
 const axios = require('axios');
 const app = express();
 
-const clientId = 'SEU_CLIENT_ID';
-const clientSecret = 'SEU_CLIENT_SECRET';
+const clientId = '4315af62f95343a68a4df385b274160d';
+const clientSecret = '5b2cb6c4a3654bfbaf0c52656dbddeb2';
 const redirectUri = 'https://spotifyv2-api.onrender.com/callback';
 const scope = 'user-read-private user-read-email user-read-playback-state user-read-currently-playing';
 
